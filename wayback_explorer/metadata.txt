@@ -1,0 +1,30 @@
+[general]
+name=Wayback Explorer
+qgisMinimumVersion=3.22
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Browse the Esri World Imagery Wayback archive with a timeline slider and add any historical release as a streamed WMTS layer.
+about=Wayback Explorer streams historical Esri World Imagery releases straight from the official Esri Wayback WMTS
+    service into QGIS. Scrub a timeline across every published release (2014 to today) and add any of them to the
+    project, or keep a live layer that follows the slider. Imagery is streamed on demand through the QGIS WMTS
+    provider only: the plugin never bulk-downloads tiles and never caches imagery to disk, in line with the Esri
+    Terms of Use. Loaded layers carry the required attribution and an attribution badge is shown on the map canvas.
+    Imagery credit: Esri World Imagery (Wayback). Source: Esri, Vantor, Earthstar Geographics, and the GIS User
+    Community. Wayback: https://livingatlas.arcgis.com/wayback/ Terms of Use:
+    https://www.esri.com/en-us/legal/terms/full-master-agreement This plugin is not affiliated with or endorsed
+    by Esri.
+version=1.0.0
+author=Adeel Khalil Ahmad
+email=adeelkhalilahmad@gmail.com
+homepage=https://github.com/adeelkhalil/qgis-wayback-plugin
+tracker=https://github.com/adeelkhalil/qgis-wayback-plugin/issues
+repository=https://github.com/adeelkhalil/qgis-wayback-plugin
+tags=esri,wayback,imagery,satellite,wmts,timeline,history,living atlas
+category=Web
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+server=False
+changelog=
+    1.0.0 - Initial release: timeline dock, add layer, live scrub layer, Esri attribution, redirected-tile fix.
